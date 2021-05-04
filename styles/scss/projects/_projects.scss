@@ -1,0 +1,21 @@
+.projects {
+    width: 80%;
+    margin: 0 auto;
+
+    &__img {
+        width: 45%;
+        margin: 0 auto;
+        margin-bottom: 4rem;
+
+        position: sticky;
+        top: 0;
+
+        &:nth-child(1) {
+            margin-top: 5rem;
+        }
+
+        img {
+            width: 100%;
+        }
+    }
+}
